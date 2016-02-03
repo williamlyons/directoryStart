@@ -2,15 +2,71 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <title>directory | index</title>
+    <title>directory | example</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/jquery.modal.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
   </head>
   <body>
 
-        <h1 class="project-name">directory | index</h1>
+    <!-- Modals; Edit with care -->
+    <div id="img1" style="display:none;">
 
+      <h2>Example Non-functional Form</h2>
+
+      <form>
+      Name:<br>
+      <input type="text" name="name" value="your name"><br>
+      E-mail:<br>
+      <input type="text" name="mail" value="your email"><br>
+      Comment:<br>
+      <input type="text" name="comment" value="your comment" size="50"><br><br>
+      <input type="submit" value="Send">
+      </form>
+
+    </div>
+
+    <div class="container">
+
+      <section class="page-header">
+        <h1 class="project-name">directory | example</h1>
+        <h2 class="project-tagline">the best deals for [your audience].</h2>
+        <p>an example description.</p>
+        <a href="#img1" rel="modal:open" class="button">recommend a place</a>
+
+      </section>
+
+      <section class="main-content">
+        <h3>Deals on Campus</h3>
+        <table>
+          <tr>
+            <th>Deal</th>
+            <th>Business</th>
+            <th>Expires</th>
+          </tr>
+          <tr>
+            <td>The best deal</td>
+            <td>Kaldis Coffee</td>
+            <td>3/1/16</td>
+          </tr>
+          <tr>
+            <td>Another deal</td>
+            <td>Crushed Red</td>
+            <td>3/1/16</td>
+          </tr>
+        </table>
+      </section>
+
+      <footer class="site-footer">
+        <hr>
+        <p>Copyright 2016 Simon Yost.</p>
+      </footer>
+      <!-- JavaScript; Do not edit below -->
+       <script src="js/jquery-1.12.0.min.js"></script>
+        <script src="js/jquery.modal.min.js"></script>
+
+    </div>
   </body>
 </html>
