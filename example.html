@@ -6,22 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/jquery.modal.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
   </head>
   <body>
+
+    <!-- Modals; Edit with care -->
+    <div id="img1" style="display:none;">
+      <p>img 1</p>
+      <img src="http://placehold.it/800">
+    </div>
+
     <div class="container">
 
       <section class="page-header">
         <h1 class="project-name">directory | example</h1>
-        <h2 class="project-tagline">Web Professional and Teacher</h2>
-        <p>I am a Hacker & Painter type specializing in maximizing the potential of teams.</p>
-
-<p>At work, I lead multidisciplinary teams that create products and content. I believe a content-first approach and rapid learning cycles are important in the office and classroom.</p>
-
-<p>At home, I am a husband, father, amateur cyclist, and self professed coffee aficionado. My passions include foster/adopt, working to restore St. Louis city, and Husker football.</p>
-
-<a href="mailto:simonyost@gmail.com" class="button">Contact Me</a>
-<a href="https://github.com/simonyost" class="button">Collaberate</a>
+        <h2 class="project-tagline">the best deals for [your audience].</h2>
+        <p>an example description.</p>
+<a href="#img1" rel="modal:open" class="button">recommend a [place]</a>
+<a href="#" class="button">Collaberate</a>
       </section>
 
       <section class="main-content">
@@ -55,6 +58,9 @@
         <hr>
         <p>Copyright 2016 Simon Yost.</p>
       </footer>
+      <!-- JavaScript; Do not edit below -->
+       <script src="js/jquery-1.12.0.min.js"></script>
+        <script src="js/jquery.modal.min.js"></script>
 
     </div>
   </body>

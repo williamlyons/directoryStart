@@ -77,3 +77,14 @@ footer {
     font-size: 13px;
     color: #ccc;
 }
+
+/*modal*/
+.modal {
+    max-width: 800px;
+    min-width: 300px;
+    width: auto;
+}
+
+.modal img {
+  width: 100%;
+}
